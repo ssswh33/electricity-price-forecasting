@@ -24,7 +24,7 @@ I did data quality check on the dataset and performed data cleaning in Python, i
 
 ### 3.2 Feature engineering
 The team discovered multiple seasonalities of energy pricing, such as daily trend, weekly trend, and yearly trend. And then created corresponding features. 
-**images here**
+![](Graphics/seasonalities.png)
 
 ### 3.2 Prophet model
 I collaborated with my teammate to learn the Prophet model through reading official document, public examples, and practice. </br>
@@ -33,7 +33,7 @@ Prophet was a very powerful model that could provide accurate and fast result, a
 ### 3.3 Error Metrics  
 I chose MAPE to analyze the model performance. </br>
 I calculated overall MAPE, MAPE without outliers, and monthly MAPE. I found the model wasn't very robust to outliers and MAPE varied in different months. </br></br>
-**Images here**
+![](Graphics/error%20metrics.png)
 A solution was to develope forecasting models *month by month*.
 
 ## 4. Summary
