@@ -12,7 +12,7 @@ Our team decided to develope a [Prophet](https://facebook.github.io/prophet/) ti
 ## 2. Data 
 The company provided us with an internal dataset, containing weather data, price data, and load data.</br>
 **Data Range:** 2017-03-01 00:00:00 to 2020-03-02-23:00. </br>
-80%-20% Splitting </br>
+
 **Training Data:** 2017-03-01 00:00:00 - 2019-05-31 23:00:00 </br>
 **Test Data:** 2019-06-01 00:00:00 - 2019-12-31 23:00:00 </br>
 *We excluded data in 2020, because it's higly possible that the price would reveal new pattern due to the COVID-19 pandemic.*
@@ -37,8 +37,8 @@ Prophet was a very powerful model that could provide accurate and fast result, a
 
 ### 3.3 Error Metrics  
 I chose MAPE to analyze the model performance. </br>
-I calculated overall MAPE, MAPE without outliers, and monthly MAPE. I found the model wasn't very robust to outliers and MAPE varied in different months. </br></br>
-![](Graphics/error-metrics.png)
+I calculated overall MAPE, MAPE without outliers, and monthly MAPE. I found MAPE varied in different months. </br></br>
+![](Graphics/monthly-mape.png) </br>
 A solution was to develope forecasting models *month by month*.
 
 ## 4. Summary
