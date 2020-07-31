@@ -32,7 +32,8 @@ Prophet was a very powerful model that could provide accurate and fast result, a
 **Model-building-Flow-Chart** </br>
 ![](Graphics/model-building-flow-chart.png)
 **Prediction Visual** </br>
-![](Graphics/prediction%20visual.png)
+![](Graphics/prediction%20visual.png)</br>
+The part didn't have black points was the prediction period. The Prophet model captured the upward trend at the second half year well.
 
 
 ### 3.3 Error Metrics  
