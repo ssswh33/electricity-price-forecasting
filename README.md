@@ -5,7 +5,7 @@ The most valuable thing I learned was that how to design different metrics to ev
 
 ## 1. Introduction
 The project aimed to predict hourly energy prices from 0 am to 23 pm to help the business team at NextEra Energy, Inc. to get a more competitive bid at the Day-ahead market. </br>
-The data scientist team at NEER was interested in seeing if the student team could provide any novel approach for price prediction. </br></br>
+The data scientist team at NEE was interested in seeing if the student team could provide any novel approach for price prediction. </br></br>
 
 Our team decided to develope a [Prophet](https://facebook.github.io/prophet/) time series model, a brand-new model that had never been implemented before.
 
