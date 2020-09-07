@@ -28,7 +28,12 @@ The team discovered multiple seasonalities of energy pricing, such as daily tren
 
 ### 3.2 Prophet model
 I collaborated with my teammate to learn the Prophet model through reading official document, public examples, and practice. </br>
+#### 3.2.1 Model Introduction
 Prophet was a very powerful model that could provide accurate and fast result, and was capable in forecasting prices accurately in a long time period, while ARIMA could not achieve it. [Check out more here](https://facebook.github.io/prophet/) </br>
+#### 3.2.2 Tune Parameters
+**For Seasonality**: Based on the characteristic of the line plot of each level of seasonality. </br>
+**For Significant Features**: Based on the result of Random Forest Importnce Plot. </br>
+
 **Model-building-Flow-Chart** </br>
 ![](Graphics/model-building-flow-chart.png)
 **Prediction Visual** </br>
@@ -36,7 +41,7 @@ Prophet was a very powerful model that could provide accurate and fast result, a
 The part didn't have black points was the prediction period. The Prophet model captured the upward trend at the second half year well.
 
 
-### 3.3 Error Metrics  
+### 3.3 Error Metrics & Model Improvement
 I chose MAPE to analyze the model performance. </br>
 I calculated overall MAPE, MAPE without outliers, and monthly MAPE. I found MAPE varied in different months. </br></br>
 ![](Graphics/monthly-mape.png) </br>
